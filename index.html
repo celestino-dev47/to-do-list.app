@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📒Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header">
+    <h1>📒Lista de Tarefas</h1>
+    <p>Adicione suas tarefas!</p>
+  </div>
+  <div class="container">
+    <input type="text" id="inputTarefa" placeholder="Digite suas tarefas">
+    <div class="inline">
+      <button onclick="adicionarTarefa()">Adicionar a Lista</button>
+      <button onclick="limparLista()" class="botao_lista">Limpar Tudo</button>
+    </div>
+    <p id="mensagem"></p>
+  </div>
+  <div>
+    <ul id="listaTarefas"></ul>
+  </div>
+  <footer class="footer">
+  <p>📒Lista de Tarefas</p>
+
+  <div class="footer-links">
+    <span>Função de editar</span>
+    <span>LocalStorage</span>
+    <span>HTML • CSS • JavaScript</span>
+  </div>
+
+  <p class="autor">© 2026 Celestino</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
